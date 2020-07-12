@@ -1,0 +1,117 @@
+img{ 
+	Width: 100%;
+}
+body {box-sizing: border-box;
+		/* background-color: #656461; */
+	} 
+main{
+	border: 2px dashed transparent;	
+	}
+aside{
+	/* border: 2px dashed red; */
+	border-right: 2px solid black;
+	width: 25%;
+	padding: 2.5%;
+	background-color: #80DEEA;
+}
+article{
+	/* border: 2px solid brown; */
+	width: 65%;
+	padding: 2.5%;
+}
+section{
+	border-top: 3px dotted black;
+	/*border: 2px dashed transparent;		*/
+}
+h1{
+	text-align: left;
+	font-size: 100px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-decoration: underline;
+	text-shadow: 5px 2px #4d4d4d;
+}
+h2{
+	/* text-align: center; */
+	background-color: grey;
+	-moz-border-radius: 9em 9em 9em 9em;
+	border-radius: 9em 9em 9em 9em;
+}
+i{
+	padding-right: 5px;
+}
+.banner{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.profileimg{
+	width: 100%;
+	/* background-image: url("./images/cartoon.jpg"); */
+	border: 2px solid black;
+	-moz-border-radius: 25em 25em 25em 25em;
+	border-radius: 25em 25em 25em 25em;
+}
+.icons{
+	align-content: center;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.image{
+	background-image: url("./images/gray.png") ;
+	background-repeat: repeat-x-y; 
+	opacity: 0.3;
+}
+.entry{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+/* .job{
+	background-color: gray;
+} */
+.main-dir {
+	border: 2px solid orangered;
+	background-color: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	-moz-border-radius: 3em 3em 3em 3em;
+	border-radius: 3em 3em 3em 3em;
+}
+.L1{
+	width: 25%;
+	/* padding: 5%; */
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	font-weight: bold;
+}
+.R1{
+	width: 75%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+.M1{
+	width: 100%;
+	/* padding: 5%; */
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+.flex-container {
+	display: flex;
+}
+.flex-direction {
+	flex-direction: row;
+}
+@media screen and
+(max-width:500px){
+		.flex-direction {
+			flex-direction: column;
+		}
+		aside,article {
+			width: 95%;
+			border-right: 2px solid transparent;
+			background-color: #80CBC4;
+		}
+	}
