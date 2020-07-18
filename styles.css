@@ -31,7 +31,7 @@ h1{
 	text-shadow: 5px 2px #4d4d4d;
 }
 h2{
-	/* text-align: center; */
+	text-align: center;
 	background-color: grey;
 	-moz-border-radius: 9em 9em 9em 9em;
 	border-radius: 9em 9em 9em 9em;
@@ -113,5 +113,9 @@ i{
 			width: 95%;
 			border-right: 2px solid transparent;
 			background-color: #80CBC4;
+		}
+		.banner{
+			visibility: hidden;
+			height: 0px;
 		}
 	}
