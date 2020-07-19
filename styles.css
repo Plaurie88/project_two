@@ -19,7 +19,7 @@ article{
 	width: 65%;
 	padding: 2.5%;
 }
-section{
+section, .icons{
 	border-top: 3px dotted black;
 	/*border: 2px dashed transparent;		*/
 }
